@@ -49,3 +49,8 @@ clean:
 
 clear_frames:
 	rm anim/*
+
+run:
+	./mdl script.mdl
+	convert anim/pic* pic.gif
+	animate pic.gif
