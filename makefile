@@ -51,6 +51,9 @@ clear_frames:
 	rm anim/*
 
 run:
-	./mdl script.mdl
-	convert anim/pic* pic.gif
-	animate pic.gif
+	./mdl animtest.mdl
+	convert anim/simple* simple.gif
+	animate -delay 5 simple.gif
+
+animate:
+	animate -delay 5 simple.gif
