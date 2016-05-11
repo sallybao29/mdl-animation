@@ -51,9 +51,9 @@ clear_frames:
 	rm anim/*
 
 run:
-	./mdl test.mdl
-	convert anim/test* test.gif
-	animate -delay 5 test.gif
+	./mdl ball.mdl
+	convert anim/ball* ball.gif
+	animate -delay 5 ball.gif
 
 animate:
-	animate -delay 5 test.gif
+	animate -delay 5 ball.gif
