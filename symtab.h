@@ -43,7 +43,6 @@ SYMTAB *add_symbol(char *name, int type, void *data);
 void print_constants(struct constants *p);
 void print_light(struct light *p);
 void print_symtab();
-SYMTAB *add_symbol(char *name, int type, void *data);
 void set_value(SYMTAB *p, double value);
 
 

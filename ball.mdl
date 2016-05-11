@@ -1,0 +1,16 @@
+frames 50
+basename ball
+push
+move 250 250 0
+move -10 0 0 wobble
+rotate y 10 shaky
+rotate x 20
+sphere 0 0 0 100
+torus 0 0 0 10 90
+move 0 0 100
+rotate x 90
+torus 0 0 0 5 20
+vary wobble 0 24 0 1
+vary shaky 0 24 0 1 
+vary wobble 25 49 1 0
+vary shaky 25 49 1 0
